@@ -907,6 +907,12 @@ input::placeholder {
 }
 
 @media (max-width: 540px) {
+  .header {
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 50px;
+  }
+  
   .header__title {
     padding-top: 50px;
     font-size: 40px;
